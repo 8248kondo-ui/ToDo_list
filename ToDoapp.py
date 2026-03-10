@@ -89,3 +89,4 @@ for i, task in enumerate(sorted_todos):
                 st.session_state.todos.remove(task)
                 save_data(st.session_state.todos)
                 st.rerun()
+                
